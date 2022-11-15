@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les bagnoles clicker</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/flashmcqueen1.png" />
+</head>
+<body>
+    <div class="container lesbagnoles">
+        <h1>Les bagnoles clicker</h1>
+    </div>
+    <section class="container flex-container">
+        <section class="clickingcookie">
+            <div class="totalscore">
+                <h2 id="score_total">0 McMiles</h2>
+                <p>McMiles par clic : <span id="cookieparclic">1</span></p>
+                <p>McMiles par secondes : <span id="cookieparseconde">0</span></p>
+            </div>
+            <div id="lecookie" onclick="clickfunction()">
+                <img src="images/flashmcqueen2.png" alt="lecookie">
+            </div>
+        </section>
+        <section class="container flex-container boosts">
+            <section class="container">
+                <div>
+                    <button onclick="upclick()" class="flex-container martin" id="martin"> 
+                        <img src="images/martin.png" alt="martin">
+                        <p id="multiclick">100 McMiles </br>X1,5</p>
+                    </button>
+                    <p id="expensiveclick"></p>
+                </div>
+                <div>
+                    <button onclick="grandma()" class="flex-container vertical-align sally" id="sally">
+                        <img src="images/sally.png" alt="sally">
+                        <p id="grandmaclick">500 McMiles </br>+1/s</p> 
+                    </button>
+                    <p id="expensivegrandma"></p>
+                </div>
+            </section>
+            <section class="container">
+                <div>
+                    <button onclick="farm()" class="flex-container vertical-align dochudson" id="doc"> 
+                        <img src="images/Doc_Hudson.png" alt="Doc_Hudson">
+                        <p id="farmclick">1000 McMiles </br>+5/s</p>
+                    </button>
+                    <p id="expensivefarm"></p>
+                </div>
+                <div>
+                    <button onclick="mine()" class=" flex-container vertical-align guido" id="guido"> 
+                        <img src="images/guido.png" alt="guido">
+                        <p id="mineclick">10000 McMiles </br>+20/s</p>
+                    </button>
+                    <p id="expensivemine"></p>
+                </div>
+            </section>
+        </section>
+    </section>
+    <section>
+        <p class="randomtext"></p>
+    </section>
+    <!-- SON -->
+
+
+    
+    <!-- SCRIPT -->
+    <script src="clicker.js"></script>
+</body>
+</html>

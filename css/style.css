@@ -1,0 +1,148 @@
+/* === MISE EN PAGE GENERAL === */
+
+@font-face {
+    font-family: 'Les bagnoles';
+    src: url('../fonts/MAGNETOB.TTF');
+}
+
+html{
+    font-family: 'Les bagnoles', Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/cars.png);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Réglages balises */
+
+
+/* Classes fonctionnelles */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+/* Background */
+
+/* Titre */
+
+h1{
+    font-family: 'Les bagnoles';
+    color: red;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: black 1px 5px 5px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+/* Bouton */
+
+/*=== HEADER ===*/
+
+.lesbagnoles{
+    border: 0px none;
+    background-color: rgba(0, 0, 0, 0.47);
+    border-radius: 40px 40px 40px 40px;
+}
+
+/* === MAIN === */
+
+/* Cookie */
+
+.clickingcookie{
+    text-align: center;
+}
+
+.clickingcookie img{ 
+    width: 75%;
+}
+
+.totalscore{
+    border: 0px none;
+    background-color: rgba(0, 0, 0, 0.47);
+    border-radius: 40px 40px 40px 40px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+
+/* Boosts */
+.boosts{
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 20px;
+}
+.boosts button{
+    font-size: 150%;
+    background-color: rgba(255, 255, 255, 0.445);
+    border: 0px none;
+    border-radius: 30px;
+    box-shadow: 3px, 3px, 10px black;
+    margin-bottom: 5%;
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    transition: all 0.4s ease;
+}
+
+.boosts button:hover{
+    scale: 1.05;
+}
+
+/* ajustement images bouton */
+
+/* MARTIN */
+.martin{
+    width: 370px;
+}
+.martin img{
+    height: 100px;
+}
+
+/* SALLY */
+.sally{
+    width: 370px;
+}
+.sally img{
+    height: 100px;
+}
+
+/* DOC HUDSON */
+.dochudson{
+    width: 370px;
+}
+.dochudson img{
+    width: 170px;
+}
+
+/* GUIDO */
+.guido{
+    width: 370px;
+}
+.guido img{
+    height: 100px;
+}
+
+/* === FOOTER === */
